@@ -1,8 +1,9 @@
-# express + mongoDB + passport 实现记事本项目
+# express + mongoDB + passport 实现个人记事本项目
 
 ## The start
 
 ```
+
     + npm install || cnpm install
 
     + npm install forever || cnpm install forever
