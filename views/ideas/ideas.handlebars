@@ -1,0 +1,13 @@
+{{#each data}}
+<div class="card-body container card mb-4">
+    <h5 class="card-title">{{titles}}</h5>
+    <p class="card-text">{{details}}</p>
+    <a href="/ideas/edit/{{id}}" class="btn btn-dark mb-2">Edit</a>
+    <form action="/ideas/{{id}}?_method=DELETE" method="POST">
+        <input type="hidden" name="_method" value="DELETE">
+        <button class="btn btn-block btn-danger">Delete</button>
+    </form>
+</div>
+{{else}}
+<h1>No data yet~</h1>
+{{/each}}

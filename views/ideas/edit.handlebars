@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <h2 class="display-4">Edit notes</h2>
+    <hr class="mb-4">
+    <form class="needs-validation" action="/ideas/{{id}}?_method=PUT" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="mb-3">
+            <label for="email">Title</label>
+            <input type="text" name="titles" class="form-control" placeholder="请输入标题" value="{{titles}}">
+        </div>
+
+        <div class="mb-3">
+            <label for="address">Detail</label>
+            <textarea class="form-control" name="details" rows="9" placeholder="请输入内容...">{{details}}</textarea>
+        </div>
+
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">编辑（edit）</button>
+    </form>
+</div>
