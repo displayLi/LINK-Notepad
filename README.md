@@ -4,9 +4,9 @@
 
 ```
 
-    + npm install || cnpm install
+    + npm install 
 
-    + npm install forever || cnpm install forever
+    + npm install forever 
 
     + forever start app.js
 
