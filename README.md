@@ -1,6 +1,6 @@
 # 个人记事本项目
 
-## server
+## web applicaion
 
 
 
@@ -61,5 +61,7 @@
 ```
 
 [Click Go Demos](http://api.link97.com:8082 "Click Go Demos")
+
+Copy right displayli 转载请加备注 或 联系 QQ：463961434
 
 Author By displayLi @ [LINK+ 创意工作室 ](http://www.link97.com "LINK Create Studio")
