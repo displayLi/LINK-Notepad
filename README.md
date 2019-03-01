@@ -1,20 +1,65 @@
-# express + mongoDB + passport 实现个人记事本项目
+# 个人记事本项目
 
-## The start
+## server
+
+
+
+> UI
+
+![png1](../lookImg/1.png)
+![png2](../lookImg/2.png)
+![png3](../lookImg/3.png)
+![png4](../lookImg/4.png)
+![png5](../lookImg/5.png)
+
+> files
+
+```
+        .
+        ├── NavIntercept
+        │   └── navIntercept.js
+        ├── README.md
+        ├── app.js
+        ├── config
+        │   └── passport.js
+        ├── lookImg
+        │   ├── 1.png
+        │   ├── 2.png
+        │   ├── 3.png
+        │   ├── 4.png
+        │   └── 5.png
+        ├── model
+        │   ├── Model.js
+        │   └── Users.js
+        ├── package-lock.json
+        ├── package.json
+        ├── public
+        │   └── css
+        │       └── style.styl
+        ├── routes
+        │   ├── ideas.js
+        │   └── users.js
+        └── views
+        ├── about.handlebars
+        ├── home.handlebars
+        ├── ideas
+        │   ├── add.handlebars
+        │   ├── edit.handlebars
+        │   └── ideas.handlebars
+        ├── layouts
+        │   └── main.handlebars
+        ├── partials
+        │   ├── _error.handlebars
+        │   ├── _msg.handlebars
+        │   └── _navbar.handlebars
+        └── users
+                ├── login.handlebars
+                └── register.handlebars
+
+        12 directories, 27 files
 
 ```
 
-    + npm install 
+[Click Go Demos](http://api.link97.com:8082 "Click Go Demos")
 
-    + npm install forever 
-
-    + forever start app.js
-
-    + forever stop app.js
-
-    + forever restart app.js
-
-```
-<a href="http://api.link97.com:8082">Demos</a>
-
-Author by displayLi @ <a href="http://www.link97.com">LINK+ 创意工作室</a>
+Author By displayLi @ [LINK+ 创意工作室 ](http://www.link97.com "LINK Create Studio")
