@@ -6,11 +6,11 @@
 
 > UI
 
-![png1](../lookImg/1.png)
-![png2](../lookImg/2.png)
-![png3](../lookImg/3.png)
-![png4](../lookImg/4.png)
-![png5](../lookImg/5.png)
+![png1](./lookImg/1.png)
+![png2](./lookImg/2.png)
+![png3](./lookImg/3.png)
+![png4](./lookImg/4.png)
+![png5](./lookImg/5.png)
 
 > files
 
